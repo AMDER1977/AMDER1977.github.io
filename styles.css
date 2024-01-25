@@ -225,3 +225,81 @@ footer .redes a {
   margin-right: 14px; 
   color: #9e9e9e;
 }
+
+/**R E S P O N S I V E**/
+
+/*Header Responsive */
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar {
+    margin-top: 20px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+  }
+
+  .navbar ul li {
+    margin: 10px 0;
+  }
+}
+
+/* Main Responsive */
+@media screen and (max-width: 768px) {
+  .content-container .section {
+    height: auto;
+  }
+
+  .content-container .section h2 {
+    font-size: 1.8em;
+  }
+
+  .content-container .section p {
+    font-size: 1em;
+  }
+
+  .content-container .section button {
+    font-size: 0.8em;
+  }
+
+  .all-container {
+    max-width: 90%;
+  }
+
+  .screen-cards {
+    flex-direction: column;
+  }
+
+  .menu-navegacion ul {
+    flex-direction: column;
+  }
+
+  .card-container {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}
+
+/* Footer Responsivo */
+@media screen and (max-width: 768px) {
+  footer {
+    padding: 15px 0;
+  }
+
+  footer p {
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+
+  footer .redes {
+    margin-top: 10px;
+  }
+}
