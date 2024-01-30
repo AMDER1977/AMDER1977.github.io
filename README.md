@@ -10,4 +10,4 @@ Este es un ejemplo de una página web básica creada con HTML y CSS, con un dise
 1. Clona este repositorio:
 
    ```bash
-   git clone https://github.com/tuusuario/tuproyecto.git
+   git clone [https://github.com/tuusuario/tuproyecto.git](https://github.com/AMDER1977/AMDER1977.github.io.git)https://github.com/AMDER1977/AMDER1977.github.io.git
